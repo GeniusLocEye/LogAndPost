@@ -14,7 +14,7 @@ except ImportError:
     keyboard = None
 
 
-DEFAULT_LOG_DIRECTORY = r"C:\Users\shado\AppData\Local\VRC Speech To Text\Exceptions"
+DEFAULT_LOG_DIRECTORY = r"%localappdata%\VRC Speech To Text\Exceptions"
 DEFAULT_FILTER_PATH = r"Z:\STT-TTS\LogAndPost\filter.csv"
 DEFAULT_AUTH_URL = "http://localhost:3000/auth"
 DEFAULT_SEND_URL = "http://localhost:3000/send"
